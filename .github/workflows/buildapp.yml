@@ -14,7 +14,7 @@ on:
       uyou_url:
         description: "The URL for download uYou"
         default: "https://miro92.com/repo/debs/com.miro.uyou_3.0.1_iphoneos-arm.deb"
-        required: false
+        required: true
         type: string
       decrypted_youtube_url:
         description: "Direct URL to the decrypted YouTube ipa. The version of YouTube will be detected automatically."
